@@ -1,0 +1,92 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-image: url("imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+header {
+    width: 10%;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+    padding: 40px;
+}
+
+main{
+    display: flex;
+    padding: 10px;
+}
+
+.texto-original {
+    width: 890px;
+}
+
+.texto-encriptado {
+    width: 490px;
+    background: azure;
+    background-image: url(imagenes/esperando-codigo.png);
+    background-size: 80% 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto-original, .texto-encriptado {
+    height: 470px;
+    margin: 0 20px;
+    padding: 10px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+#botonEncriptar, #botonDesencriptar, #botonCopiar {
+    margin: 20px;
+    width: 40%;
+    max-width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#botonEncriptar, #botonCopiar {
+    background-color:azure;
+}
+
+#botonDesencriptar {
+    background-color: rgb(159, 236, 236);
+}
+
+button:hover {
+    transition: transform 0.3s ease;
+    transform: scale(0.95);
+}
+
+
+footer{
+    background-image: url("imagenes/fondo-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.redes-sociales {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 20px 10px;
+}
